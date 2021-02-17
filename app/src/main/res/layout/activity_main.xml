@@ -18,17 +18,20 @@
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="dispararAcaoTela"
         android:text="Disparar ACAO_TELA" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="dispararAcaoTelaCategoriaTela"
         android:text="Disparar ACAO_TELA e CATEGORIA_TELA" />
 
     <Button
         android:id="@+id/button3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:onClick="abrirNavegador"
         android:text="Abrir Navegador" />
 </LinearLayout>
